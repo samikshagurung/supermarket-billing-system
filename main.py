@@ -437,18 +437,7 @@ def main():
     """Entry point of the application"""
     print("=" * 60)
     print(" " * 10 + "WELCOME TO SUPERMART BILLING SYSTEM")
-    print("=" * 60)
-    # print("\nA comprehensive OOP-based billing system")
-    # print("Demonstrating:")
-    # print("- Encapsulation")
-    # print("- Inheritance")
-    # print("- Polymorphism")
-    # print("- Abstraction")
-    # print("- Composition & Aggregation")
-    # print("- Design Patterns (Singleton, Strategy)")
-    # print("=" * 60)
-    # input("\nPress Enter to start...")
-    
+    print("=" * 60)    
     system = SupermarketSystem()
     system.run()
 
